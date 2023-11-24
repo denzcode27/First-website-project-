@@ -1,0 +1,614 @@
+body{
+    margin-top: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 600vh;
+    background-color: #FFFBF5;
+  
+}
+
+/* "FIRST SECTION " */
+.first{
+    display: flex;
+    position: sticky;
+    justify-content: flex-end;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+}
+
+.nav{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(95, 95, 100);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+.nav:hover{
+    color: black;
+    text-decoration: underline;  
+}
+
+/* "SECOND SECTION " */
+.photo{
+    width: 100%;
+    object-fit: cover;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+}
+
+.center{
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto;
+    grid-template-rows: 233px 233px 233px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.company{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.company1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.title{
+    font-size: 150px;
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+}
+
+.italic{
+    font-style: italic;
+}   
+
+.undertitle{
+    font-size: 40px;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+}
+
+.learnmore{
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    height: 650px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.boxlearn{
+    display: flex;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    padding-top: 11px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.changecolor{
+    text-decoration: none; 
+    color: #C8A287;
+}
+
+.boxlearn:hover{
+    background-color: #4D3F28;
+}
+
+
+/* " THIRD SECTION " */
+.three{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFBF5;
+    height: auto;
+    padding-top: 20px;
+}
+
+.left{
+    display: flex;
+    font-size: 4rem;
+    font-family: 'Fraunces', serif;
+    color: #C8A287;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+}
+
+.right{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    width: 50%;
+    font-family:'Old Standard TT', serif;
+    height: auto;
+}
+
+#sizfont{
+    font-size: 3em;
+    color: #4D3F28;
+    font-weight: bold;
+}
+
+#psize{
+    font-size: 2rem;
+    color: #4D3F28;
+    font-weight: 300;
+}
+
+/* " FOURTH SECTION " */
+
+.quotecontainer{
+    height: 100%;
+    width: 100%;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.leftbg{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+}
+
+.bgleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.bgcoffee{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.quoteleft{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.leftquote{
+    display: flex;
+    height: 100%;
+    height: 100%;
+    font-family: 'Old Standard TT', serif;
+    font-size: 5rem;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.bgright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CFB4AC;
+}
+
+.tcup{    
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.quoteright{
+    margin-top: 50px;
+    font-family: 'Old Standard TT', serif;
+    font-size: 2rem;
+    color: #4D3F28;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+/* " FIFTH SECTION " */
+
+.delocontainer{
+    height: 100%;
+    width: 100%;
+
+}
+.top{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    position: relative;
+    background-color: #FFFBF5;
+}
+
+.delotitle{
+    height: auto;
+    font-size: 60pt;
+    margin-top: 40px;
+    color: #C8A287;
+    font-family: 'Old Standard TT', serif;
+    font-weight: bolder;
+
+}
+
+.lineup{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background-color: #FFFBF5;
+}
+
+.delodetail{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 216px 216px 216px;
+    padding-top: 15px;
+   
+}
+
+.leftthermos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:auto;
+    margin-bottom: 20px;
+}
+
+#thermos{
+    height: 100%;
+}
+
+#line1,#line2,#line3{
+    background-color: #4D3F28;
+    width: 374px;
+    height: 2px;
+    margin-left: 40px;
+}
+
+.details{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    font-family: 'Old Standard TT', serif;
+    font-size: 22pt;
+}
+
+/* " SECTION SIX " */
+.bgpricing{
+    background-color: #C8A287;
+    height: 700px;
+    width: 100%;
+}
+
+.gridpricing{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 500px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.toppricing{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    font-size: 22pt;
+    color: #4D3F28;
+}
+
+#pricingfont{
+    font-family: 'Fraunces', serif;
+    font-size: 5rem;
+    color: white;
+}
+
+.bottompricing{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+.boxs{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% auto auto 40%;
+    background-color: #FFFBF5;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#titleprice{
+    font-size: 3rem;
+    font-family: 'Fraunces', serif;
+    color: #C8A287;
+    font-weight: normal ;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #C8A287;
+    border-width: 2px 0px 2px 0px;
+    height: 30px;
+}
+
+.boxprice{
+    font-size: 20pt;
+    color: #4D3F28;
+    height: 50px;
+    width: auto;    
+}
+
+#boxbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+   
+}
+
+#buttonprice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid black;
+    border-width: 1px 1px 1px 1px;
+    height: 50px;
+    width: 250px;
+    font-size: xx-large;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #4D3F28;
+    background-color: #CFB4AC;
+}
+
+#buttonprice:hover{
+    background-color: #C8A287;
+    color: white;
+}
+
+/* " SECTION SIX " */
+
+.bgfeature{
+    background-image: url("./feature.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 600px;
+    width: 100%;
+}
+
+.gridfeature{
+    display: grid;
+    height: 600px;
+    width: 100%;
+    grid-template-columns: 12;
+    grid-template-rows: 150px 450px; 
+    color: white;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+    
+}
+
+.topfeature{
+    height: auto;
+    width: auto;
+    font-size: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.bottomfeatures{
+    
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.feature1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    padding-left: 20px;
+}
+
+.title1{
+    font-size: 40px;
+}
+
+.inside1{
+    font-size: 70px;
+}
+
+.paragraph1{
+    font-size: x-large;
+}
+
+
+/* " EIGTH SECTION " */
+/* " GET YOURS " */
+
+.gridyours{
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.leftyours{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #CFB4AC;
+    
+}
+
+.quoteyours{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 50%;
+    width: 100%;
+    font-size: 5rem;
+    font-family: 'Old Standard TT', serif;
+    font-weight: bold;
+    color: white;
+}
+
+.getyours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    color:#C8A287;
+    font-size: 2rem;
+    text-decoration: none;
+    border: solid black;
+    border-width: 1px;
+}
+
+.getyours:hover{
+    background-color: #4D3F28;
+    color: white;
+}
+
+.rightcoffee{
+    height: auto;
+    width: auto;
+    background-image: url("./rightcoffee.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* " LAST SECTION " */
+.lastgrid{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 750px;
+}
+
+.leftphoto{
+    background-image: url("./leftphoto.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bgcontact{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 15% 5% 50%;
+}
+
+#titlecontact,#address,#email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titlecontact{
+    height: auto;
+    width: auto;
+    font-size: 70px;
+    font-family: 'Old Standard TT', serif;
+    font-weight: bold;
+    color: #C8A287;
+}
+
+#address{
+    height: auto;
+    width: auto;
+    font-family: 'Old Standard TT', serif;
+    color: black;
+    font-size: 30px;
+    padding-bottom: 10px        ;
+}
+
+#email{
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    font-family: 'Old Standard TT', serif;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+.socialIcon{
+    display: flex;
+    height: auto;
+    width: 300px;
+    justify-content: space-around;
+    align-items: last baseline;
+    padding-bottom: 20px;
+    background-color: #FFFBF5;
+}
+
+#icon{
+    color: #CFB4AC;
+}
+
+
